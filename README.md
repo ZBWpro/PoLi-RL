@@ -68,3 +68,9 @@
           --overlong_filter True \
           --report_to tensorboard
       ```
+## Main Results on Qwen3-8B
+| Method | Training Paradigm | Parameters | Spearman | Pearson  |
+| :--- | :--- | :--- | :--- | :--- |
+| Qwen3-8B | Few-shot | 8B | 37.9  | 38.54  |
+| Qwen3-8B | SFT | 8B | 40.42  | 40.83  |
+| **PoLi-RL (Ours)** | **RL** | **8B** | **48.18**  | **48.27**  |
